@@ -2,8 +2,8 @@ import { useEffect, useRef } from "react";
 import { ReactMediaRecorder } from "react-media-recorder";
 
 let abs = (a) => a > 0 ? a : -1 * a;
-let min = (a, b) => abs(a) < abs(b) ? a : b
-let max = (a, b) => a > b ? a : b
+// let min = (a, b) => abs(a) < abs(b) ? a : b
+// let max = (a, b) => a > b ? a : b
 let middle = (a, b, c) => {
   if (a > b) {
     if (b > c) return b;
